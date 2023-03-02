@@ -303,8 +303,8 @@ for i in range (len(arr)):
             arr[j+1]=cur
             break
 for i in range (0,len(arr)):
-    print(arr[i],end=' ')       
-
-
-
-FEFGERG
+    print(arr[i],end=' ')    
+    
+    
+    
+    
