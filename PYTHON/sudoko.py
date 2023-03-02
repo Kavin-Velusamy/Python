@@ -1,3 +1,5 @@
+
+# # # summa
 M = 9
 def puzzle(a):
     for i in range(M):
