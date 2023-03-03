@@ -1,6 +1,6 @@
 
 
-
+# creating multiple object in simple program
 
 class student :
     def __init__(self,name,no):
@@ -14,3 +14,11 @@ class student :
 s=student ('erevv',34)
 print(s.name,s.no) 
 s.details()
+
+s2=student('eiopov',2354)
+print(s2.name,s2.no) 
+s2.details()
+
+s3=student('egdfbh',24)
+print(s3.name,s3.no) 
+s3.details()
