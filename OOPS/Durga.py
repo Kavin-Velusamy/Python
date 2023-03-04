@@ -1,15 +1,23 @@
 
-# constructor is a init function
-# method 
-# variable
+# # constructor is a init function
+# # method 
+# # variable
     
 
-# # creating multiple object in simple program
+# # # creating multiple object in simple program
+
+
+
+# # class student :
+# #     def __init__(self,n,o):
+# #         self.name=n
+# #         self.no=o
+
 
 # class student :
-#     def __init__(self,name,no):
-#         self.name=name
-#         self.no=no
+#     def __init__(self,n,o):
+#         self.name=n
+#         self.no=o
         
 #     def details(self):
 #         print("my name is",self.name)
