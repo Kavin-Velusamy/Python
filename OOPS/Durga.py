@@ -7,7 +7,6 @@
 # # # creating multiple object in simple program
 
 
-
 # # class student :
 # #     def __init__(self,n,o):
 # #         self.name=n
@@ -23,9 +22,11 @@
 #         print("my name is",self.name)
 #         print("my no is",self.no)
     
+    
 # print('*'*20)
 # s=student ('erevv',34)
 # s.details()
+# print(s.name,s.no)        # outside of instance variable
 
 # print('*'*20)
 # s2=student('eiopov',2354)
@@ -49,10 +50,92 @@
 #     def findavg(x,y):
 #         print("Average",(x+y)/2)
         
-        
-        
-        
+         
 # s=student()
 # # print(id(s))
 # s.findavg(10,20)
 
+
+
+# # instance variable
+# class student:
+#     def __init__(self,n,o):
+#         self.name=n
+#         self.no=o
+        
+#     def info(self):
+#         self.mark=49
+#         x=45                             # local variable
+        
+# s=student("ferfc",24)
+# s.info()       
+# s.a=10
+# print(s.__dict__)
+
+
+
+# # delete the self variable and object reference
+
+
+
+# class cs:
+#     def __init__(self):
+#         self.a=12
+#         self.b=3
+#         self.f=4
+        
+#     def delete (self):
+#         del self.a
+#         del self.f
+        
+# s=cs()
+# print(s.__dict__)
+# print('*'*20)
+
+# s.delete()
+# print(s.__dict__)
+# print('*'*20)
+
+# del s.b
+# print(s.__dict__)
+# print('*'*20)
+
+
+
+
+
+# class cs:
+#     def __init__(self):
+#         self.a=12
+#         self.b=3
+#         self.f=4
+        
+#     # def delete (self):
+#     #     del self.a
+        
+# s=cs()  
+# s1=cs()
+# print(s.__dict__)
+# print('*'*20)
+# del s.b
+# print(s.__dict__ )
+# print('*'*20)
+# del s1.a
+# print(s1.__dict__ )
+
+
+
+
+
+class cs:
+    def __init__(self):
+        self.a=12
+        self.b=3
+        self.f=4
+        
+s=cs()
+s1=cs()
+s.a=35435
+s1.f=7688
+print(s.a,s.b,s.f)
+print(s1.a,s1.b,s1.f)
