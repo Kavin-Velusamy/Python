@@ -36,6 +36,15 @@
 #     def __init__(self):
 #         print(id(self))
         
+        
+#     @staticmethod
+#     def findavg(x,y):
+#         print("Average",(x+y)/2)
+        
+        
+        
+        
 # s=student()
-# print(id(s))
+# # print(id(s))
+# s.findavg(10,20)
 
