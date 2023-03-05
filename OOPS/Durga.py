@@ -295,20 +295,106 @@
 
 
 
-class test:
-    def m1(self):
-        global x
-        x=545
-        print(x)
+# class test:
+#     def m1(self):
+#         global x
+#         x=545
+#         print(x)
         
         
-    def m2(self):
-        print(x)
+#     def m2(self):
+#         print(x)
         
-t=test()
-t.m1()
-t.m2()
+# t=test()
+# t.m1()
+# t.m2()
+
+
+
+# # Using instance method use 'self' argument
+
+# def m1(self):
+#     self.x
+    
+# # Using class method use'@classmethod' 
+
+# @classmethod
+# def m1(self,cls):
+#     cls.x
+    
+# # Use '@staticmethod' for this process
+
+# def add(x,y):
+#     print(x+y) 
 
 
 
      
+# # # Application of Banking process
+# # import sys
+
+# class customer:
+    
+#     bankname='KVB'
+    
+#     def __init__(self,name,balance=0):
+#         self.name=name
+#         self.balance=balance
+        
+#     def deposit(self,amt):
+#         self.balance=self.balance+amt
+#         print("The Total  Account balance is :",self.balance)
+        
+#     def withdraw(self,amt):
+#         if amt>self.balance:
+#             print("Insufficient amount cannot perform the operation")
+#             exit()
+#         else:
+#             self.balance=self.balance-amt
+#             print("After withdraw the amount The balance is:",self.balance)
+            
+#     # def withdraw(self,amt):
+#     #     if amt>self.balance:
+#     #         print("Insufficient amount cannot perform the operation")
+#     #         sys.exit()
+            
+#     #     self.balance=self.balance-amt
+#     #     print("After withdraw the amount The balance is:",self.balance)
+            
+            
+# print("Welcome the ",customer.bankname)
+# name=input("enter the name :")
+# c=customer(name)
+
+# while True:
+#     print("d-Deposit\nw-Withdraw\ne-Exit")
+#     option=input("Enter Your option :")
+#     if option=="d":
+#         amt=int(input("Enter the amount to deposit :"))
+#         c.deposit(amt)
+        
+#     elif option=="w":
+#         amt=int(input("Enter the amount to withdraw:"))
+#         c.withdraw(amt)
+        
+#     elif option=="e":
+#         print("Thank you for Banking ")
+#         exit()
+        
+#     else:
+#         print("Invalid option\nPlease choose the correct option")
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
