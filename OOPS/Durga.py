@@ -168,24 +168,62 @@
 
 
 
-# delete the static variable
+# delete  inside of static variable
 
-class test:
-    a=20
-    def __init__(self):
-        del test.a
+# class test:
+#     a=20
+#     def __init__(self):
+#         del test.a
         
         
 
-print(test.__dict__)
-t=test()
-print(test.__dict__)
+# print(test.__dict__)
+# t=test()
+# print(test.__dict__)
+
+
+# delete outside 
+
+# class test:
+#     a=20
+#     b=20
+    
+# t=test()
+# del test.a
+# print(test.b)
+# del test.b
+
+
+
+
+
+# class test:
+#     a=10
+#     def m1(self):
+#         self.y=20 
+        
+# t1=test()
+# t2=test()
+# test.a=3445
+# test.y=6778
+# print(test.a,test.y)
 
 
 
 
 
 
-
-
-
+# class test:
+#     a=10
+#     def __init__(self):
+#         self.y=20 
+        
+# t1=test()
+# t2=test()
+# print(t1.a,t1.y)
+# print(t2.a,t2.y)
+# print('*'*20)
+# t1.a=3445
+# t2.y=6778
+# print(t1.a,t1.y)
+# print(t2.a,t2.y)
