@@ -141,25 +141,45 @@
 # print(s1.a,s1.b,s1.f)
 
 
-class test:
-    a=10    
-    def __init__(self):
-        self.a=20
+# class test:
+#     a=10                      # static variable     
+#     def __init__(self):
+#         test.a=20
         
-    # @classmethod
-    # def m1(self):
-    #     self.a =30
-    #     test.a=40
+#     @classmethod
+#     def m1(self):
+#         self.a =30
+#         test.a=40
         
-t=test()
+        
+#     @staticmethod
+#     def m2():
+#         test.a=50
+    
+    
+    
+# t=test()
 # t.m1()
-print(test.a)
-print(t.a)
+# t.m2()
+# t.a=60
+# print(test.a)
+# print(t.a)
 
 
 
 
+# delete the static variable
 
+class test:
+    a=20
+    def __init__(self):
+        del test.a
+        
+        
+
+print(test.__dict__)
+t=test()
+print(test.__dict__)
 
 
 
