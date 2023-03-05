@@ -127,15 +127,45 @@
 
 
 
-class cs:
-    def __init__(self):
-        self.a=12
-        self.b=3
-        self.f=4
+# class cs:
+#     def __init__(self):
+#         self.a=12
+#         self.b=3
+#         self.f=4
         
-s=cs()
-s1=cs()
-s.a=35435
-s1.f=7688
-print(s.a,s.b,s.f)
-print(s1.a,s1.b,s1.f)
+# s=cs()
+# s1=cs()
+# s.a=35435
+# s1.f=7688
+# print(s.a,s.b,s.f)
+# print(s1.a,s1.b,s1.f)
+
+
+class test:
+    a=10    
+    def __init__(self):
+        self.a=20
+        
+    # @classmethod
+    # def m1(self):
+    #     self.a =30
+    #     test.a=40
+        
+t=test()
+# t.m1()
+print(test.a)
+print(t.a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
