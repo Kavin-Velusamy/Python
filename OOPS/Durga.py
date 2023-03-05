@@ -387,6 +387,39 @@
     
         
         
+class students:
+    def __init__(self,name,mark):
+        self.name=name
+        self.mark=mark
+        
+    def display(self):
+        print("The student name is :",self.name)
+        print("The student mark is :",self.mark)
+        
+    def Grade(self):
+        
+        if self.grade>=80:
+            print("o")
+            
+        elif self.grade>=60:
+            print("A")
+            
+        elif self.grade>=40:
+            print("B")
+            
+        else:
+            print("Fail")
+            
+            
+n=int(input("Enter the students :"))
+for i in range (n):
+    name=input("Enter the student name :")
+    mark=int(input("Enter the mark:"))
+    n=students(name,mark)
+    n.display()
+    n.grade()
+
+
         
         
         
@@ -396,5 +429,4 @@
         
         
         
-        
-        
+    
