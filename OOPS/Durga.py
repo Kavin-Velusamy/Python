@@ -248,5 +248,35 @@
 
 
 
+# local variable
 
 
+# class test:
+#     def m1(self):
+#         a=100
+#         print(a)
+        
+#     def m2(self):
+#         b=30
+#         print(b)
+        
+# t=test()
+# t.m1()
+# t.m2()
+
+
+# class test:
+    
+#     def average(self,l):
+#         l=sum(l)/len(l) 
+#         print("the average is",l)
+        
+        
+# t=test()   
+# t.average([10,20,30,40])
+
+
+
+
+
+     
