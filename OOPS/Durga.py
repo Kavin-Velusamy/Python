@@ -277,6 +277,38 @@
 
 
 
+# x=100         #  global variable
+# class test:
+#     x=300
+#     def m1(self):
+#         x=545
+#         print(x)
+#         print(self.x)
+        
+#     def m2(self):
+#         print(x)
+#         print(test.x)
+        
+# t=test()
+# t.m1()
+# t.m2()
+
+
+
+class test:
+    def m1(self):
+        global x
+        x=545
+        print(x)
+        
+        
+    def m2(self):
+        print(x)
+        
+t=test()
+t.m1()
+t.m2()
+
 
 
      
