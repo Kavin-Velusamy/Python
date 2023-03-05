@@ -222,8 +222,31 @@
 # t2=test()
 # print(t1.a,t1.y)
 # print(t2.a,t2.y)
-# print('*'*20)
+# print('*'*20) 
 # t1.a=3445
 # t2.y=6778
 # print(t1.a,t1.y)
 # print(t2.a,t2.y)
+
+
+
+
+# class test:
+#     x=10
+#     def __init__(self):
+#         self.y=20
+        
+# t1=test()
+# t2=test()
+# print(t1.x,t1.y)
+# print(t2.x,t2.y)
+# print('*'*20)
+# test.x=454
+# t1.y=999
+# print(t1.x,t1.y)
+# print(t2.x,t2.y)
+
+
+
+
+
