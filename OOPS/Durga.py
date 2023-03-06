@@ -426,53 +426,83 @@
 
         
         
+# class Animal:
+#     legs=4
+    
+#     @classmethod
+#     def walk(cls,name):
+#         print('{} walks with {} legs'.format(name,cls.legs))
+        
+# Animal.walk('Dog')
+# Animal.walk('cat')
         
         
         
         
         
         
+# class Test:
+#     count=0
+#     def __init__(self):
+#         Test.count=Test.count+1
+        
+        
+#     @classmethod
+#     def Noofobject(cls):
+#         print("No of object created",cls.count)
+        
+# t1=Test()
+# t2=Test()
+# t3=Test()
+# t4=Test()
+# t5=Test()
+# t6=Test()
+# Test.Noofobject()
+
+        
+        
+        
+
+        
+        
+        
+# class Maths:
+    
+#     @staticmethod
+#     def Add(x,y):
+#         print("the sum of two no is",x+y)
+        
+        
+#     @staticmethod
+#     def Sub(x,y):
+#         print("the sub of two no is",x-y)
+        
+        
+#     @staticmethod
+#     def Average(x,y):
+#         print("the Average  of two no is",(x+y)/2)
+        
+        
+# Maths.Add(10,20)
+# Maths.Sub(10,20)
+# Maths.Average(10,20)
         
         
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+# static method
+            
+class method:
+    
+    # @staticmethod
+    def m1(x):
+        print("some thing",x)
+   
+   
+method.m1(10)     
+# t=method()
+# t.m1(10)
         
         
         
