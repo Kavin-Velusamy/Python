@@ -602,6 +602,58 @@
 # p.display()
 
         
+        # check
+        
+        
+# class person:
+    
+#     def __init__(self,d,m,y):
+#         self.name='Kavin'
+#         self.dob=self.DOB(d,m,y)  
+        
+#     def display(self):
+#         print("My name is :",self.name)
+#         self.dob.Display()
+        
+#     class DOB:
+        
+#         def __init__(self,d,m,y):
+#             self.d=d
+#             self.m=m
+#             self.y=y
+            
+#         def Display(self):
+#             print("DOB={}/{}/{}".format(self.d,self.m,self.y)) 
+            
+            
+# p=person("Kavin",22,1,2004)
+# p.display()
+        
+        
+        
+        # check 
+     
+     
+# class person:
+    
+#     def __init__(self,d,m,y):
+#         self.name='Kavin'
+#         self.d=22
+#         self.m=1
+#         self.y=2004
+#         # self.dob=self.DOB(d,m,y)  
+        
+#     def display(self):
+#         print("My name is :",self.name)
+#         DOB={}/{}/{}.format(self.d,self.m,self.y)
+#         print(DOB)
+    
+           
+# p=person()
+# p.display()
+        
+    
+        
         
         
 # class Human:
@@ -623,3 +675,26 @@
 # h=Human()
 
                 
+
+# Nested Method
+
+
+# class Test:
+#     def m1(self):
+        
+#         def sum(a,b):
+#             print("First no :",a)
+#             print("Second No :",b)
+#             print("the sum is :",a+b)
+#             print("the product is :",a-b)
+#             print('*'*20)
+            
+#         sum(10,20)
+#         sum(100,200)
+#         sum(200,400)
+        
+# a=Test()
+# a.m1()
+            
+                
+            
