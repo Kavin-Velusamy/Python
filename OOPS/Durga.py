@@ -491,40 +491,135 @@
         
         
         
-# static method
+# # static method
             
-class method:
+# class method:
     
-    # @staticmethod
-    def m1(x):
-        print("some thing",x)
+#     # @staticmethod
+#     def m1(x):
+#         print("some thing",x)
+   
+# method.m1(10)     
+# # t=method()
+# # t.m1(10)
+ 
+ 
+        
+# class method:
+    
+#     @staticmethod
+#     def m1(x):
+#         print("some thing",x)
    
    
-method.m1(10)     
-# t=method()
-# t.m1(10)
+# method.m1(10)         
+        
+        
+        
+ 
+        
+# class method:
+    
+#     def m1():
+#         print("some thing")
+   
+# method.m1()         
+        
+        
+        
+# #  Inner classes
+        
+        
+# class Employee:
+#     def __init__(self,no,name,sal):
+#         self.no=no
+#         self.name=name
+#         self.sal=sal
+        
+#     def Display(self):
+#         print("Employee no is :",self.no)  
+#         print("Employee name id :",self.name)
+#         print("Emlpoyeen salary is :",self.sal)
+        
+        
+# class Test:
+#     def Modify(emp):
+#         emp.sal=emp.sal+10000
+#         emp.Display()
+        
+# A=Employee(123456,'kavin',40000)
+# Test.Modify(A)
+          
+      
+# # # Inner class creation 
+
+  
+# class outer:
+#     def __init__(self):
+#         print("Outer class creating")
+        
+#     class inner:
+#         def __init__(self):
+#             print("Inner class creation")
+            
+#         def m1(self):
+#             print("Inner class method")
+            
+# # o=outer()
+# # I=o.inner()
+# # I.m1()
+
+# # i=outer().inner()
+# # i.m1()             
+        
+# outer().inner().m1()       
         
         
         
         
+# class person:
+    
+#     def __init__(self):
+#         self.name='Kavin'
+#         self.dob=self.DOB()  
+        
+#     def display(self):
+#         print("My name is :",self.name)
+#         self.dob.Display()
+        
+#     class DOB:
+        
+#         def __init__(self):
+#             self.d=22
+#             self.m=1
+#             self.y=2004
+            
+#         def Display(self):
+#             print("DOB={}/{}/{}".format(self.d,self.m,self.y)) 
+            
+            
+# p=person()
+# p.display()
+
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+# class Human:
+#     def __init__(self):
+#         self.head=self.Head()
+#         # self.brain=self.Brain()
         
     
+#     class Head:
+#         def __init__(self):
+#             self.brain=self.Brain()
+#             print("Head is important")
+        
+#         class Brain:
+#             def __init__(self):
+#                 print("In brain we can thick a lot")
+                
+                
+# h=Human()
+
+                
