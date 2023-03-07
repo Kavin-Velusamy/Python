@@ -602,13 +602,13 @@
 # p.display()
 
         
-        # check
+# Another method
         
         
 # class person:
     
-#     def __init__(self,d,m,y):
-#         self.name='Kavin'
+#     def __init__(self,name,d,m,y):
+#         self.name=name
 #         self.dob=self.DOB(d,m,y)  
         
 #     def display(self):
@@ -630,8 +630,8 @@
 # p.display()
         
         
-        
-        # check 
+   
+        # check
      
      
 # class person:
@@ -645,7 +645,7 @@
         
 #     def display(self):
 #         print("My name is :",self.name)
-#         DOB={}/{}/{}.format(self.d,self.m,self.y)
+#         DOB=({}/{}/{}.format(self.d,self.m,self.y))
 #         print(DOB)
     
            
