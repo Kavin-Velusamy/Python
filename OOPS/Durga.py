@@ -4,13 +4,27 @@
 # # variable
     
 
+
+
+# # Using instance method use 'self' argument
+
+# def m1(self):
+#     self.x
+    
+# # Using class method use'@classmethod' 
+
+# @classmethod
+# def m1(self,cls):
+#     cls.x
+    
+# # Use '@staticmethod' for this process
+
+# def add(x,y):
+#     print(x+y) 
+
+
+
 # # # creating multiple object in simple program
-
-
-# # class student :
-# #     def __init__(self,n,o):
-# #         self.name=n
-# #         self.no=o
 
 
 # class student :
@@ -26,7 +40,7 @@
 # print('*'*20)
 # s=student ('erevv',34)
 # s.details()
-# print(s.name,s.no)        # outside of instance variable
+# # print(s.name,s.no)        # outside of instance variable
 
 # print('*'*20)
 # s2=student('eiopov',2354)
@@ -118,9 +132,11 @@
 # s=cs()  
 # s1=cs()
 # print(s.__dict__)
+
 # print('*'*20)
 # del s.b
 # print(s.__dict__ )
+
 # print('*'*20)
 # del s1.a
 # print(s1.__dict__ )
@@ -464,10 +480,7 @@
         
         
         
-
-        
-        
-        
+  
 # class Maths:
     
 #     @staticmethod
