@@ -713,9 +713,33 @@
             
                 
 
+# # Garbage Collector
+
+
+# import gc
+
+# print(gc.isenabled())
+# gc.disable()     
+# print(gc.isenabled())
+# gc.enable()
+# print(gc.isenabled())
             
             
             
+# import time
+
+# class Test:
+#         def __init__(self):
+#                 print("Object Initialization")
+                
+#         def __del__(self):
+#                 print("fullfilling last wish")
+                
+# t1=Test()
+# t1=None
+# time.sleep(10)
+# # t1=None
+# print("End of application")
             
             
             
