@@ -54,10 +54,12 @@
 # s=student()
 # # print(id(s))
 # s.findavg(10,20)
-
+                
 
 
 # # instance variable
+
+
 # class student:
 #     def __init__(self,n,o):
 #         self.name=n
@@ -112,7 +114,7 @@
         
 #     # def delete (self):
 #     #     del self.a
-        
+
 # s=cs()  
 # s1=cs()
 # print(s.__dict__)
@@ -145,12 +147,12 @@
 #     a=10                      # static variable     
 #     def __init__(self):
 #         test.a=20
-        
+
 #     @classmethod
 #     def m1(self):
 #         self.a =30
 #         test.a=40
-        
+
         
 #     @staticmethod
 #     def m2():
@@ -697,4 +699,12 @@
 # a.m1()
             
                 
+
+            
+            
+            
+            
+            
+            
+            
             
