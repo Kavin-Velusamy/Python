@@ -817,5 +817,50 @@
 
 # Operator Overloading
 
+# + =__add__()
+# - =__sub__()
+# * =__sub__()
+# / =__div__()
+# % =__mod__()
+# // =__floordiv__()
+# ** =__pow__()
+
+# +=  =__iadd__()
+# -=  =__isub__()
+
+#  For all symbol
+
+# >  =__gt__()
+# >= =__ge__()
+# <  =__lt__()
+# <= =__le__()
+
+
+# class Book:
+        
+#         def __init__(self,pages):
+#                 self.pages=pages
+                
+#         def __add__(self,other):
+#                 return self.pages+other.pages
+        
+#         def __sub__(self,other):
+#                 return self.pages-other.pages
+        
+#         def __mul__(self,other):
+#                 return self.pages*other.pages
+        
+#         # def __div__(self,other):
+#         #         return self.pages/other.pages
+        
+# b1=Book(100)
+# b2=Book(200)
+# b3=Book(400)
+# print(b1+b2)
+# print(b2+b3)
+# print(b1-b2)
+# print(b1*b2)
+# # print(b1/b2)
+
 
 
