@@ -793,7 +793,29 @@
 
 
 # Polymorphism
+# one name but multiple forms
 
+
+# Tea, Juice ,Beer
+
+
+
+# Overloading
+
+# Operator Overloading  +,*,>,<,>=,<=
+# 10+3>>13
+# kavin*3>> kavinkavinkavin
+
+
+
+# Method Overloading
+# method different argument type
+# deposit(cash)
+# deposit(cheque)
+# deposit(dd)
+ 
+
+# Operator Overloading
 
 
 
