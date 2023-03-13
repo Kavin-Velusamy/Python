@@ -809,13 +809,15 @@
 
 
 # Method Overloading
-# method different argument type
+
+# same name/method but different argument types
 # deposit(cash)
 # deposit(cheque)
 # deposit(dd)
  
 
 # Operator Overloading
+
 
 # + =__add__()
 # - =__sub__()
@@ -834,7 +836,6 @@
 # >= =__ge__()
 # <  =__lt__()
 # <= =__le__()
-
 
 # class Book:
         
@@ -861,6 +862,104 @@
 # print(b1-b2)
 # print(b1*b2)
 # # print(b1/b2)
+
+
+
+# class Book:
+        
+#         def __init__(self,pages):
+#                 self.pages=pages
+                
+#         def __str__(self):
+#                 # return "KAVIN"
+#                 return "The no of pages :"+str(self.pages)
+        
+#         def __add__(self,other):
+#                 total=self.pages+other.pages      # Add many str function
+#                 b=Book(total)
+#                 return b
+        
+# b1=Book(100)
+# b2=Book(200)
+# b3=Book(300)
+# print(b1+b2+b3)              
+        
+
+# class student:
+#         def __init__(self,name,marks):
+#                 self.name=name
+#                 self.marks=marks
+                
+        
+#         def __lt__(self,other):
+#                 return self.marks<other.marks
+                
+                
+
+# s1=student("kavin",200)
+# s2=student("Mohan",300)
+# print(s1<s2)
+
+
+
+# class Employee:
+        
+#         def __init__(self,name,salary):
+#                 self.name=name
+#                 self.salary=salary
+                
+#         def __mul__(self,other):
+#                 return self.salary*other.days
+        
+
+# class Timesheet:
+#         def __init__(self,name,days):
+#                 self.name=name
+#                 self.days=days
+                
+                
+#         # def __mul__(self,other):
+#         #         return self.days*other.salary
+        
+                
+                
+# e=Employee("KAVIN",500)
+# t=Timesheet("MOHAN",30)
+# print("The Month salary is :",e*t)
+# # print("The Month salary is :",t*e)
+
+
+# Method Overloading
+
+
+# class Test:
+        
+#         def m1(self):
+#                 print("kavin")
+                
+#         def m1(self,x):
+#                 print("Mohan")
+                
+# t=Test()
+# t.m1(10)
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
