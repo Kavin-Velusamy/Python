@@ -713,7 +713,7 @@
             
                 
 
-# # Garbage Collector
+# # Garbage Collection
 
 
 # import gc
@@ -744,4 +744,56 @@
             
             
             
-            
+# import time
+# class Test:
+#         def __init__(self):
+#                 print("Object Initialization")
+                
+#         def __del__(self):
+#                 print("fullfilling last wish")
+                
+# # t1=Test()
+# # t2=t1
+# # t3=t2
+# # t4=t3
+# # del t1
+# # time.sleep(10)
+# # print("After deleting t1 object not destroyed ")
+# # del t2
+# # del t3
+# # time.sleep(10)
+# # print("still object is not eligible for gc")
+# # time.sleep(10)
+# # del t4
+# # time.sleep(10)
+# # print("end of application")
+
+# list=[Test(),Test(),Test()]
+# time.sleep(4)
+# list=None
+# time.sleep(4)
+# print("End of Application")
+
+
+
+           
+# import time
+# import sys
+# class Test:
+#         def __init__(self):
+#                 print("Object Initialization")
+                
+# t1=Test()
+# t2=t1
+# t3=t2
+# t4=t3
+# print(sys.getrefcount(t1))
+
+
+
+
+
+
+
+
+
