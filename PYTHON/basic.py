@@ -470,7 +470,7 @@
 # print(thisset)                         # {'banana', 'apple', 'cherry'} 
 
 
-# Add setitem
+# Add set item
 
 # thisset = {"apple", "banana", "cherry"}
 
@@ -568,7 +568,7 @@
 # for x in fruits:
 #   print(x) 
 #   if x == "banana":                  #   apple
-                                    #   banana
+#                                     #   banana
 #     break
 
 
@@ -666,7 +666,7 @@
 
 # Best case  (It shows at fist itself)
 # Average case   (It shows at middle)
-# wrost cae    (it shows at last)
+# wrost case    (it shows at last)
 
 # l=[1,2,3,4,5]
 # a=2
