@@ -470,7 +470,7 @@
 # print(thisset)                         # {'banana', 'apple', 'cherry'} 
 
 
-# Add sete item
+# Add setitem
 
 # thisset = {"apple", "banana", "cherry"}
 
