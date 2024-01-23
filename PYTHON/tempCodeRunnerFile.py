@@ -1,7 +1,6 @@
-i=1
-while i<10:
-    print(i)
-    if i==6:
-        break;
-    i+=1
-    
+,2,3,4,5]
+a=2
+for i in l:
+    if i==2:
+        print("True")
+        break

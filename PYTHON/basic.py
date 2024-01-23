@@ -668,8 +668,7 @@
 # Average case   (It shows at middle)
 # wrost case    (it shows at last)
 
-# l=[1,2,3,4,5]
-# a=2
+# l=[1,2,3,4,5,]
 # for i in l:
 #     if i==2:
 #         print("True")
