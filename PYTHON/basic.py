@@ -62,7 +62,7 @@
 # a = "Hello, World!"
 # print(a.replace("H", "J"))       #  Jello, World!
 
-# Etc
+# etc
 
 # concatenate string
 
