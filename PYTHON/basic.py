@@ -1,8 +1,25 @@
+numbers = input("Enter 4 numbers without spaces: ")
+total = 0
+l= []
+
+# Iterate through each digit in the input string
+for digit in numbers:
+    # Convert the digit back to an integer for adding to the total
+    total += int(digit)
+    # Append the digit to the list
+    l.append(int(digit))
+
+# Print the sum of the numbers
+print(f"Sum of the numbers: {total}")
+
+# Print the list of individual digits
+print("List of individual digits:",l)
+
 # x=2123
 # name='kavin'
 # def add(x,name):
 #     print('The sum is:',x+name)
-        
+    
 # def Product(x,name):
 #     print("The product is :",x*name)
 
