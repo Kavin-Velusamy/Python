@@ -1,12 +1,13 @@
-numbers = input("Enter 4 numbers without spaces: ")
-total = 0
-l= []
 
-for digit in numbers:
-    total += int(digit)
-    l.append(int(digit))
-print("Sum of the numbers:",total)
-print("List of individual digits:",l)
+# numbers = input("Enter 4 numbers without spaces: ")
+# total = 0
+# l= []
+
+# for digit in numbers:
+#     total += int(digit)
+#     l.append(int(digit))
+# print("Sum of the numbers:",total)
+# print("List of individual digits:",l)
 
 # x=2123
 # name='kavin'
@@ -179,8 +180,8 @@ print("List of individual digits:",l)
 # thislist = ["apple", "banana", "cherry"]
 # thislist.remove("banana")
 # print(thislist)                     #  ['apple', 'cherry']
- 
-          
+
+
 # thislist = ["apple", "banana", "cherry"]
 # thislist.pop(1)
 # print(thislist)                  # ['apple', 'cherry']      
@@ -264,7 +265,7 @@ print("List of individual digits:",l)
 # thistuple = tuple(y)
 
 # print(thistuple)                   #  ('apple', 'banana', 'cherry', 'orange')
- 
+
     
 # thistuple = ("apple", "banana", "cherry")
 # y = ("orange",)
