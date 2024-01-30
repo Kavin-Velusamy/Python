@@ -10,7 +10,7 @@ for digit in numbers:
     l.append(int(digit))
 
 # Print the sum of the numbers
-print(f"Sum of the numbers: {total}")
+print("Sum of the numbers:",total)
 
 # Print the list of individual digits
 print("List of individual digits:",l)
