@@ -1,13 +1,13 @@
 
-# numbers = input("Enter 4 numbers without spaces: ")
-# total = 0
-# l= []
+numbers = input("Enter 4 numbers without spaces: ")
+total = 0
+l= []
 
-# for digit in numbers:
-#     total += int(digit)
-#     l.append(int(digit))
-# print("Sum of the numbers:",total)
-# print("List of individual digits:",l)
+for digit in numbers:
+    total += int(digit)
+    l.append(int(digit))
+print("Sum of the numbers:",total)
+print("List of individual digits:",l)
 
 # x=2123
 # name='kavin'
