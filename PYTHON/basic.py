@@ -19,6 +19,41 @@
 
 ##Basic of python
 
+
+# List
+# append("orange"),   insert(1)
+# pop(1) ,   remove("banana"),    del thislist[0] ,   clear()
+
+
+# tuple
+
+# tuples={""}
+# y=list(tuples)
+# y.append("apple")
+# y.remove("apple")
+# tuples=tuple(y)
+# print(tuples)
+
+
+# set
+
+# set.add("orange")
+# set.remove("Orange")
+# set.discard("Orange")
+# pop also remove in set{} but it will be printed
+# clear() 
+
+
+# dict
+
+# thisdict["color"] = "red"
+# pop
+# popitem -remove all the details
+# clear
+# thisdict.update({"color": "black"})
+
+
+
 # int=3534654
 # string="any value" (Double arrow mark)
 # float=34.44     #decimal value
@@ -134,6 +169,8 @@
 
 
 # List
+# append,insert
+# pop ,remove,del
 
 # thislist = ["apple", "banana", "cherry"]
 # print(thislist)                            #   ['apple', 'banana', 'cherry']
@@ -167,8 +204,8 @@
 # tropical = ["mango", "pineapple", "papaya"]
 # thislist.extend(tropical)
 # print(thislist)                  # ['apple', 'banana', 'cherry', 'mango', 'pineapple', 'papaya']
- 
- 
+
+
 # thislist = ["apple", "banana", "cherry"]
 # thistuple = ("kiwi", "orange")
 # thislist.extend(thistuple)
@@ -189,7 +226,7 @@
 # thislist = ["apple", "banana", "cherry"]
 # thislist.pop()
 # print(thislist)                   # ['apple', 'banana']
- 
+
  
 # thislist = ["apple", "banana", "cherry"]
 # del thislist[0]
@@ -250,7 +287,7 @@
 
 
 # change tuple values
- 
+
 # x = ("apple", "banana", "cherry")
 # y = list(x)
 # y[1] = "kiwi"
