@@ -1,3 +1,28 @@
+
+
+# Inheritance: Inheritance is a mechanism in which one class (called the child or subclass)
+# inherits properties and behavior (methods) from another class (called the parent or superclass).
+# This promotes code reusability and a hierarchical classification of classes.
+
+# Encapsulation: Encapsulation is the concept of bundling the data (attributes) and the methods
+# (functions) that operate on the data into a single unit or class. It also involves restricting
+# direct access to some of the object’s components, which is a means of preventing accidental 
+# interference and misuse of the methods and data.
+
+# Polymorphism: Polymorphism allows objects of different classes to be treated as objects of a common superclass.
+# It’s the ability of different objects to respond, each in its own way, to the same message (method call).
+# It can be achieved through method overriding (in a subclass) and method overloading
+# (same method name with different parameters within the same class).
+
+# Abstraction: Abstraction is the process of hiding the implementation details and showing only 
+# the functionality to the user. It involves creating simple interfaces that represent complex 
+# underlying code, allowing the programmer to focus on interaction at a high level without needing
+# to understand all the details.
+
+
+
+# oops(Object Oriented Programming)
+
 # # constructor is a init function
 # # method 
 # # variable
@@ -35,8 +60,10 @@
 
 
 # # Recursive
-
+# recursion is to break a problem down into smaller,
 # function call itself is recursive 
+
+
 # factorial(n)=n*(n-1)*(n-2)...
 # factorial(n)=n*factorial(n-1)
 
@@ -77,6 +104,9 @@
 
 # Lambda / Anonymous Function
 # Nameless function is ANONYMOUS
+# Reduce the lines of code 
+# we don't need a function ,if we have a lambda
+
 
 # s=lambda n:n*n                        #  n is argument
 # print("The square of 4 is ",s(4))
@@ -91,7 +121,7 @@
 
 # l=[0,5,10,15,20,25,30]
 # e=list(filter(lambda n:n%2==0,l))         # Filter function to check inside the function             
-# o=list(filter(lambda n:n%2!=0,l))
+# o=list(filter(lambda n:n%2!=0,l))          # filter is like a inbuilt function like modules etc 
 # print(e)
 # print(o)
 
@@ -124,6 +154,7 @@
 
 
 # # Map () Function
+# it will use to double the numbers
 
 # l=[2,3,4,5,6,]
 # output=list(map(lambda e:e*e,l))
@@ -161,6 +192,9 @@
 
 
 # Reduce 
+# it as import function
+# it will reduce the numbers like we can add all the numbers in the list
+
 
 # from functools import*
 # l=[10,20,30,40,50,60]                 # Reduce function will add one by one
@@ -441,6 +475,10 @@
 
 # # Using "instance" method use 'self' argument
 
+# the instance (self) as the first argument, allowing them to access
+# and modify the attributes of that specific instance.
+
+
 # def m1(self):
 #     self.x
 
@@ -449,7 +487,7 @@
 # #      # init method or constructor 
 # #      # inside init pass the                      # argument / parameter 
 #     def __init__(self, name,mark):  
-#         self.name = name
+#         self.name = name             # Instance attribute
 #         self.mark=mark  
 
 #     # Sample Method   
@@ -496,6 +534,14 @@
 
 
 # # Use '@staticmethod' for this process
+
+# Usage: Static methods are used when you want to perform an action that is related 
+# to the class but does not need to access or modify the instance or class-specific attributes.
+# They behave just like regular functions but are included in the class's namespace.
+
+# Access: Static methods cannot access or modify the instance's attributes or the class's attributes. 
+# They are independent of class or instance state.
+
 
 # def add(x,y):             # X and Y are parameter    
 #     print(x+y)            # 10 and 20 are argument  
@@ -979,7 +1025,7 @@
 # # t=method()
 # # t.m1(10)
 
- 
+
 
 # class method:
     
@@ -1003,7 +1049,7 @@
 #         self.no=no
 #         self.name=name
 #         self.sal=sal
-        
+
 #     def Display(self):
 #         print("Employee no is :",self.no)  
 #         print("Employee name id :",self.name)
@@ -1115,6 +1161,143 @@
 # p=person("kavin",22,1,2004)
 # p.display()
 
+
+
+
+# Inheritence
+
+
+# 1. Single Inheritance
+
+# Description: In single inheritance, a subclass inherits from a single superclass. 
+# This is the most basic form of inheritance.
+
+# class Animal:
+#     def eat(self):
+#         print("Eating...")
+
+# class Dog(Animal):
+#     def bark(self):
+#         print("Barking...")
+
+# d = Dog()
+# d.eat()  # Inherited from Animal
+# d.bark()  # Defined in Dog
+
+
+
+# 2. Multiple Inheritance
+
+# Description: In multiple inheritance, a subclass can inherit from more than one superclass. 
+# This allows the subclass to combine the behavior and attributes of multiple parent classes.
+
+# class Engine:
+#     def start(self):
+#         print("Engine started")
+
+# class Body:
+#     def protect(self):
+#         print("Body protected")
+
+# class Car(Engine, Body):
+#     pass
+
+# c = Car()
+# c.start()    # Inherited from Engine
+# c.protect()  # Inherited from Body
+
+
+
+
+# 3 .Multilevel Inheritance
+
+# Description: In multilevel inheritance, a subclass is derived from a class which is also a derived class. 
+# In other words, there is a chain of inheritance.
+
+# class Animal:
+#     def eat(self):
+#         print("Eating...")
+
+# class Mammal(Animal):
+#     def walk(self):
+#         print("Walking...")
+
+# class Dog(Mammal):
+#     def bark(self):
+#         print("Barking...")
+
+# d = Dog()
+# d.eat()   # Inherited from Animal
+# d.walk()  # Inherited from Mammal
+# d.bark()  # Defined in Dog
+
+
+
+# 4 . Hierarchical Inheritance
+# Description: In hierarchical inheritance, multiple subclasses inherit from a single superclass.
+# This is useful for modeling different types of objects that share some common behavior.
+
+# class Animal:
+#     def eat(self):
+#         print("Eating...")
+
+# class Dog(Animal):
+#     def bark(self):
+#         print("Barking...")
+
+# class Cat(Animal):
+#     def meow(self):
+#         print("Meowing...")
+
+# d = Dog()
+# d.eat()  # Inherited from Animal
+# d.bark()  # Defined in Dog
+
+# c = Cat()
+# c.eat()  # Inherited from Animal
+# c.meow()  # Defined in Cat
+
+
+
+
+
+# 5. Hybrid Inheritance
+
+# Description: Hybrid inheritance is a combination of two or more types of inheritance. 
+# It is a complex form of inheritance and typically involves multiple inheritance and multilevel inheritance.
+
+# class Animal:
+#     def eat(self):
+#         print("Eating...")
+
+# class Mammal(Animal):
+#     def walk(self):
+#         print("Walking...")
+
+# class Bird(Animal):
+#     def fly(self):
+#         print("Flying...")
+
+# class Bat(Mammal, Bird):
+#     def sleep(self):
+#         print("Sleeping...")
+
+# b = Bat()
+# b.eat()   # Inherited from Animal
+# b.walk()  # Inherited from Mammal
+# b.fly()   # Inherited from Bird
+# b.sleep() # Defined in Bat
+
+
+
+
+
+
+
+
+
+
+
         
 # class Human:
 #     def __init__(self):
@@ -1124,8 +1307,9 @@
 
 #     class Head:
 #         def __init__(self):
-#             self.brain=self.Brain()
+#             # self.brain=self.Brain()
 #             print("Head is important")
+#             self.brain=self.Brain()
         
 #         class Brain:
 #             def __init__(self):
@@ -1155,7 +1339,7 @@
             
 
 # # Garbage Collection
-
+# it will remove the unwanted files  stored in the memory
 
 # import gc
 # print(gc.isenabled())
@@ -1163,7 +1347,39 @@
 # print(gc.isenabled())
 # gc.enable()
 # print(gc.isenabled())
+           
+           
+           
             
+# import gc
+# class MyClass:
+#     def __init__(self, name):
+#         self.name = name
+#         print(f"{self.name} created")
+
+#     def __del__(self):
+#         print(f"{self.name} destroyed")
+
+# # Create an object
+# obj1 = MyClass("Object 1")
+
+# # Reference it with another variable
+# obj2 = obj1
+
+# # Delete one reference
+# del obj1
+
+# # Force garbage collection (optional)
+# gc.collect()
+
+# # Delete the last reference
+# del obj2
+
+# # Force garbage collection (optional)
+# gc.collect()
+
+
+
             
               
 # import time
@@ -1229,16 +1445,20 @@
 
 
 # Polymorphism
+# poly - many
+# morph - form
 
 # one name but multiple forms
 # Tea, Juice ,Beer
+# kavin -friends ,college ,family
 
+   
+# 4 types
+# Duck typing
+# Method Overloading
+# operator Overloading
+# method overriding
 
-# Overloading
-
-# Operator Overloading  +,*,>,<,>=,<=
-# 10+3>>13
-# kavin**3>> kavinkavinkavin
 
 
 
@@ -1252,6 +1472,9 @@
 
 # Operator Overloading
 
+# Operator Overloading  +,*,>,<,>=,<=
+# 10+3>>13
+# kavin**3>> kavinkavinkavin
 
 # + =__add__()
 # - =__sub__()

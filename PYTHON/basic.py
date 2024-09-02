@@ -1,4 +1,29 @@
 
+# Python: Python is a high-level, interpreted programming language that supports 
+# multiple programming paradigms, including procedural, functional, and object-oriented programming.
+
+# A simple Python script
+# def greet(name):
+#     return f"Hello, {name}!"
+# print(greet("Alice"))
+
+
+# OOP: Object-Oriented Programming is a paradigm that organizes software design around data, or
+# objects, rather than functions and logic. OOP focuses on classes and objects to create models
+# based on the real world.
+
+# An example of OOP in Python
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def greet(self):
+#         return f"Hello, {self.name}!"
+# p = Person("Alice")
+# print(p.greet())
+
+
+
 # numbers = input("Enter 4 numbers without spaces: ")
 # total = 0
 # l= []
@@ -13,7 +38,7 @@
 # name='kavin'
 # def add(x,name):
 #     print('The sum is:',x+name)
-    
+
 # def Product(x,name):
 #     print("The product is :",x*name)
 
@@ -23,6 +48,9 @@
 # List
 # append("orange"),   insert(1)
 # pop(1) ,   remove("banana"),    del thislist[0] ,   clear()
+# pop will remove last element 
+# push will add last in the list
+
 
 
 # tuple
@@ -38,9 +66,10 @@
 # set
 
 # set.add("orange")
+# thisset.update(tropical) combine two sets
 # set.remove("Orange")
 # set.discard("Orange")
-# pop also remove in set{} but it will be printed
+# pop also remove first element in set{} but it will be printed
 # clear() 
 
 
@@ -51,6 +80,40 @@
 # popitem -remove all the details
 # clear
 # thisdict.update({"color": "black"})
+
+# i=0
+# j=0
+# for i in range (10):
+#     for j in range(10):
+#         print(i,j)
+
+
+# for i in range(1,11):
+#     print(i,"x 2 = ",i*2)
+
+
+# years=["1st year","2nd year","3rd year","4th year"]
+# for i in years:
+#     sem=["1st sem","2nd sem"]
+#     for j in sem:
+#         print(f"{i} - {j} padiche aganum")
+
+
+# word = "abc"
+# index = 3
+# if index < len(word):  
+#     print(word[index])
+# else:
+#     print("Index out of range.")
+
+
+
+# total=0
+# for i in [1,2,3,4,5]:
+#     if i ==4:
+#         break
+#     total=total+i
+# print(total)
 
 
 
@@ -96,6 +159,12 @@
 
 # b = "Hello, World!"
 # print(b[-5:-2])                   Ans:rld
+
+
+# s = "racecar"
+# print(s==s[::-1]) 
+
+
 
 
 # Modify String
@@ -361,7 +430,7 @@
 # thisdict = dict(name = "John", age = 36, country = "Norway")
 # print(thisdict)                       #  {'name': 'John', 'age': 36, 'country': 'Norway'}
  
-   
+
    
 # car = {
 # "brand": "Ford",
@@ -762,7 +831,8 @@
 # code="python learning"
 # work="'string'"
 # name="in github"
-# print(work)     
+# print(work)    
+ 
 # # print(code.upper())         # fully captial letter 
 # print(code.lower())         #fully small letter
 # print(code.capitalize())    #first letter capital
@@ -906,7 +976,7 @@
 ## 1.log2(n)
 ## 2.cos(n)
 ## 3.e**n
-
+                        
 # # print(math.log2(16))
 # # print(math.cos(16))
 # # print(math.e**16)
@@ -950,7 +1020,7 @@
 #     print("jap win ")
 
 ## Nested if
-
+ 
 # #check if the number is three digit number                      # A     B    And       OR     NOT
 # #logical operation -and (or) or      # this method is 'and'
 #                                                                  T     T     T        T       0 = 1
