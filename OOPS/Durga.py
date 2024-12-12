@@ -1,4 +1,9 @@
 
+# python & c++ will work without oops
+# java needed oops
+
+# oops mainly used in java 
+# rarely used in python and C++
 
 # Inheritance: Inheritance is a mechanism in which one class (called the child or subclass)
 # inherits properties and behavior (methods) from another class (called the parent or superclass).
@@ -1452,7 +1457,7 @@
 # Tea, Juice ,Beer
 # kavin -friends ,college ,family
 
-   
+
 # 4 types
 # Duck typing
 # Method Overloading

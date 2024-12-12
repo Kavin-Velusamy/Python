@@ -8,6 +8,9 @@
 # print(greet("Alice"))
 
 
+# oops mainly used in java 
+# rarely used in python and C++
+
 # OOP: Object-Oriented Programming is a paradigm that organizes software design around data, or
 # objects, rather than functions and logic. OOP focuses on classes and objects to create models
 # based on the real world.
@@ -53,9 +56,9 @@
 
 
 
-# tuple
+# tuple ()
 
-# tuples={""}
+# tuples=("")
 # y=list(tuples)
 # y.append("apple")
 # y.remove("apple")
@@ -63,9 +66,9 @@
 # print(tuples)
 
 
-# set
+# set {}
 
-# set.add("orange")
+# set.add{"orange"}
 # thisset.update(tropical) combine two sets
 # set.remove("Orange")
 # set.discard("Orange")
@@ -311,7 +314,7 @@
 
 # Looping 
 
- 
+
 # thislist = ["apple", "banana", "cherry"]
 # for i in range(len(thislist)):
 #   print(thislist[i])
@@ -388,7 +391,7 @@
 # y.remove("apple")
 # thistuple = tuple(y)
 # print(thistuple)                        # ('banana', 'cherry')
-    
+
 # Looping
 
 # thistuple = ("apple", "banana", "cherry")                 #Ans:  apple
@@ -836,7 +839,7 @@
 # # print(code.upper())         # fully captial letter 
 # print(code.lower())         #fully small letter
 # print(code.capitalize())    #first letter capital
-# print(code.title())         #firat letter and space after the letter is capital
+# print(code.title())         #first letter and space after the letter is capital
 # print(code +" " + name + work)   #connecting the words or numbers
 # print(code+" "+name)        #space of the words
 # print("python \nlearning")    #this will print in next line
